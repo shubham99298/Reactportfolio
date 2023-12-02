@@ -1,0 +1,69 @@
+.middlesection{
+    display: flex;
+    color:black;
+
+}
+.middlesection .img{
+    width: 500px;
+    margin-left: 50px;
+}
+.middlesection h2{
+    margin-bottom: 20px;
+    color: black;
+}
+.middlesection p{
+    font-size: 20px;
+    line-height: 100%;
+    color: black;
+    margin-left: 70px;
+
+
+}
+.skills {
+    margin-top: 40px;
+    /* text-align: center; */
+    margin-left: 70px;
+     
+    
+
+}
+.skills h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.about__skill {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem 1rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    list-style: none;
+  
+    background: #eee;
+    color: #666;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  .about__skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about__skills li:hover{
+    color: rgb(139, 134, 134);
+    border-radius: 40px;
+    background-color: rgb(17, 6, 28);
+  }
+  h2{
+    margin-left: 70px;
+    color: black;
+}
+p{
+    color: rgb(114, 107, 107);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+   
+
+}

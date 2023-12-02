@@ -1,0 +1,39 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(7, 7, 43);
+    
+}
+nav ul{
+    display: flex;
+   justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+ nav ul li a:hover{
+    color: rgb(103, 103, 105);
+    font-size: 1.04rem;
+ }
+ nav .left img{
+    width: 50px;
+    height: 50px;
+    }
+.left{
+    font-size: 1rem;
+}
+.left img{
+    border-radius: 100px;
+    
+}

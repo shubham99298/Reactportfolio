@@ -1,0 +1,53 @@
+.projects{
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin-left: 30px;
+   
+     
+}
+
+.project1{
+    margin-left: 50%;
+    margin-bottom: 50px;
+}
+.project,.project1{
+    border: 2px solid gray;
+    padding: 20px;
+    border-radius: 45px;
+   
+}
+.project img{
+    width: 300px;
+    
+   margin-right:10px;
+   /* border: 1px solid gray ; */
+   box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+button{
+    color: white;
+    background-color: rgb(26, 8, 43);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+
+.projects p{
+    color: black;
+}
+.tag1{
+    position: absolute;
+    background-color: rgb(16, 5, 26);
+    color:rgb(207, 198, 216);
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    /* background: transparent; */
+
+    border-bottom-right-radius: 20px;
+   }
