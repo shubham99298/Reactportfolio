@@ -9,7 +9,7 @@ const About = () => {
     
        <section className="middlesection" id="about">
        <div>
-           <img className="img" src="dev.svg" alt=""/>
+           <img className="img" src="https://cdn.thecodehelp.in/ggudduf7qmr7yvjwtcs1_cd7567153f.svg" alt=""/>
        </div>
 
        <div className="mid">
