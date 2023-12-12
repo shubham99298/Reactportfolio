@@ -1,7 +1,8 @@
 import React from "react";
 import "../Style/Projects.css";
 import Training from "./Training";
-import { FaGithub } from "react-icons/fa";
+
+
 
 const Projects = () => {
   return (
@@ -24,7 +25,7 @@ const Projects = () => {
         </div>
         <div className="project1">
           <div className="tag1">Travel Website</div>
-          <img src="project1.png" height="230px" alt="" />
+          <img src="project1.png"height="230px" alt="" />
           <p>
             Created a dynamic travel website using MERN (MongoDB, Express,
             React, Node) stack. Incorporated user registration and
