@@ -41,9 +41,13 @@
     margin-right: 2rem;
     margin-bottom: 2rem;
     list-style: none;
+    
   
     background: #eee;
     color: #666;
+    /* background-color:rgb(1, 1, 13); */
+
+    /* color:white; */
     border-radius: 5px;
     font-weight: 500;
   }

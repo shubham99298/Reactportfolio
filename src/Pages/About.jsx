@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Style/About.css'
 import Projects from './Projects'
+// import { FaCss3, FaHtml5 } from 'react-icons/fa'
 const About = () => {
   return (
     //    <!-- middle section -->
@@ -23,8 +24,8 @@ const About = () => {
                    {'<Skills/>'}
                  </h3>
                  <ul class="about__skills">
-                   <li className="about__skill">html</li>
-                   <li className="about__skill">css</li>
+                   <li className="about__skill">HTML</li>
+                   <li className="about__skill">CSS</li>
                    <li className="about__skill">javascript</li>
                    <li className="about__skill">react</li>
                    <li className="about__skill">c++</li>
