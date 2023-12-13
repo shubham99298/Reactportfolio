@@ -7,7 +7,7 @@ import Training from "./Training";
 const Projects = () => {
   return (
     <div>
-      {/* <!-- projects --> */}
+    
       <hr />
       <h2 id="pro">projects</h2>
       <div class="projects">
