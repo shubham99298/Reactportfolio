@@ -1,6 +1,8 @@
 import React from 'react'
 import '../Style/Training.css'
 import Contact from './Contact'
+
+import Dev from '../assets/Dev.png'
 const Training = () => {
   return (
     <>
@@ -11,7 +13,7 @@ const Training = () => {
 
            <div className="box">
              <div className="vertical">
-                 <img className="img-top"src="NicePng_chandan-png_2666972.png" alt=""/>
+                 <img className="img-top"src={Dev} alt=""/>
                  <div className="verticaltitle">
                     Web developer Internship 
                      (1 Apr 2023- 1 May 2023)
@@ -28,7 +30,7 @@ const Training = () => {
 
                 
              <div className="vertical">
-                <img className="img-top"src="NicePng_chandan-png_2666972.png" alt=""/>
+                <img className="img-top"src={Dev} alt=""/>
                 <div className="verticaltitle">
                    MERN stack training
                    (21 JUL 2023 -5 SEPT 2023)

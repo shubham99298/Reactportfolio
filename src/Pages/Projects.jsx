@@ -2,7 +2,10 @@ import React from "react";
 import "../Style/Projects.css";
 import Training from "./Training";
 
-
+import  project2 from '../assets/project2.png'
+import  project1 from '../assets/project1.png'
+import  project3 from '../assets/project3.png'
+import  project4 from '../assets/project4.png'
 
 const Projects = () => {
   return (
@@ -13,7 +16,7 @@ const Projects = () => {
       <div class="projects">
         <div className="project">
           <div className="tag1">WebChat</div>
-          <img src="project2.png" height="235px" alt="" />
+          <img src={project2} height="235px" alt="" />
           <p>
             Developed a real-time chat application using Node.js and Socket.IO,
             demonstrating expertise
@@ -25,7 +28,7 @@ const Projects = () => {
         </div>
         <div className="project1">
           <div className="tag1">Travel Website</div>
-          <img src="project1.png"height="230px" alt="" />
+          <img src={project1}height="230px" alt="" />
           <p>
             Created a dynamic travel website using MERN (MongoDB, Express,
             React, Node) stack. Incorporated user registration and
@@ -41,7 +44,7 @@ const Projects = () => {
         </div>
         <div className="project">
           <div className="tag1">Todo</div>
-          <img src="project3.png" height="230px" alt="" />
+          <img src={project3} height="230px" alt="" />
           <p>
             Created a sleek Todo application using React.js, <br/>employing its
             component-based structure for efficient task management. <br/>Implemented
@@ -55,7 +58,7 @@ const Projects = () => {
         </div>
         <div className="project1">
           <div className="tag1">BlogApp</div>
-          <img src="project4.png" height="235px" alt="" />
+          <img src={project4} height="235px" alt="" />
           <p>
             Successfully developed a full-stack blog web application using the
             MERN (MongoDB, Express.js, React, Node.js) stack. Responsible for

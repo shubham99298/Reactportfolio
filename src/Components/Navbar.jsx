@@ -6,7 +6,7 @@ import {HashLink} from "react-router-hash-link"
 
 
 
-
+import logo from '../assets/logo.jpg'
 
 
 const Navbar = () => {
@@ -19,7 +19,7 @@ const Navbar = () => {
             {/* <!-- for logo  --> */}
             <div className="left">
 
-                <img  src="logo.jpg" alt=""/>
+                <img  src={logo} alt=""/>
                
                 {/* <h1>{'<MyPortfolio/>'}</h1> */}
                 
