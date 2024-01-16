@@ -22,7 +22,7 @@ const Contact = () => {
         <div className='social'>
         <AiFillMail/>
         <h2>
-         <a href='mailto:your.shubhamlata2002@gmail.com'>shubhamlata2002@gmail,com</a>
+         <a href='mailto:shubhamlata2002@gmail.com'>shubhamlata2002@gmail,com</a>
       </h2>
         </div>
 

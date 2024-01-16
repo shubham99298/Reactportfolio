@@ -41,8 +41,10 @@ const Training = () => {
             </div>
               
             </div>
+           
           </section>
           <Contact/>
+         
     </>
   )
 }

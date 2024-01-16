@@ -12,6 +12,7 @@
     margin-left: 50%;
     margin-bottom: 50px;
 }
+ 
 .project,.project1{
     border: 2px solid gray;
     padding: 20px;
@@ -35,9 +36,18 @@ button{
     margin-left: 5px;
     border-radius: 20px;
 }
+  button:hover{
+ color: black;
+ cursor: pointer;
+ background-color: rgb(202, 200, 200);
+}
 
 .projects p{
     color: black;
+}
+.projects ul li{
+    color: black;
+    margin: 20px;
 }
 .tag1{
     position: absolute;

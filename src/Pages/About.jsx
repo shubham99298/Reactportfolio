@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Style/About.css'
 import Projects from './Projects'
-// import { FaCss3, FaHtml5 } from 'react-icons/fa'
+
 const About = () => {
   return (
     //    <!-- middle section -->
