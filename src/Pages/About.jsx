@@ -20,10 +20,10 @@ const About = () => {
            </p>
          
            <div className="skills">
-               <h3 class="heading-quaternary about__heading-quaternary">
+               <h3 className="heading-quaternary about__heading-quaternary">
                    {'<Skills/>'}
                  </h3>
-                 <ul class="about__skills">
+                 <ul className="about__skills">
                    <li className="about__skill">HTML</li>
                    <li className="about__skill">CSS</li>
                    <li className="about__skill">javascript</li>

@@ -11,15 +11,15 @@ const Home = () => {
     <div>
         <section className="firstsection" id="home">
             <div className="leftsection">
-                 <div> Hey ! ,I am</div><span class="purple">Shubham Kumar Sharma</span> 
+                 <div> Hey ! ,I am</div><span className="purple">Shubham Kumar Sharma</span> 
                 <div>and I am a </div>
                 <span className='grey'>Full stack developer</span>
 
             
 
-                <div class="buttons">
-                <a href="https://drive.google.com/drive/folders/1egw8C_toEomxu6FBxacOXzfotg_rBlu9" target="_blank"><button class="btn" >  My Resume</button></a> 
-                <a href="https://github.com/shubham99298" target="_blank"><button class="btn" ><FaGithub/>  github</button></a>
+                <div className="buttons">
+                <a href="https://drive.google.com/drive/folders/1egw8C_toEomxu6FBxacOXzfotg_rBlu9" target="_blank"><button className="btn" >  My Resume</button></a> 
+                <a href="https://github.com/shubham99298" target="_blank"><button className="btn" ><FaGithub/>  github</button></a>
                 </div>
             </div>
             <div className="rightsection">

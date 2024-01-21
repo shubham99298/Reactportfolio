@@ -15,7 +15,7 @@ const Projects = () => {
     
       <hr />
       <h2 id="pro">projects</h2>
-      <div class="projects">
+      <div className="projects">
         <div className="project">
           <div className="tag1">WebChat</div>
            
