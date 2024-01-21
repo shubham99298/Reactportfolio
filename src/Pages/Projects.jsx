@@ -6,7 +6,7 @@ import Training from "./Training";
 
 import  project2 from '../assets/project2.png'
 import  project1 from '../assets/project1.png'
-import  project3 from '../assets/project.png'
+import  project3 from '../assets/Project.png'
 import  project4 from '../assets/project4.png'
 
 const Projects = () => {
