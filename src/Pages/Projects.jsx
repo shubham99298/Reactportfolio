@@ -3,9 +3,10 @@ import "../Style/Projects.css";
 import Training from "./Training";
 
 
+
 import  project2 from '../assets/project2.png'
 import  project1 from '../assets/project1.png'
-import  project3 from '../assets/project3.png'
+import  project3 from '../assets/project.png'
 import  project4 from '../assets/project4.png'
 
 const Projects = () => {
@@ -17,16 +18,22 @@ const Projects = () => {
       <div class="projects">
         <div className="project">
           <div className="tag1">WebChat</div>
-          <img src={project2} height="235px" alt="" />
+           
+          <img src={project2} height="230px" alt="" />
           <ul>
+            <p>Tech stack</p>
+            <button className="Tech">Socket.IO</button>
+            <button className="Tech">JavaScript</button>
+            <button className="Tech">NodeJs</button>
+            <button className="Tech">CSS</button>
+
            <li>Developed a real-time chat application using Node.js and Socket.IO,
             demonstrating expertise
             <br /> in server-side JavaScript and real-time communication</li>
           
             
           </ul>
-
-          <button>live link</button>
+          <button>Preview</button>
           <a href="https://github.com/shubham99298/ChatApp"><button>github</button></a>
           
         </div>
@@ -34,6 +41,11 @@ const Projects = () => {
           <div className="tag1">Travel Website</div>
           <img src={project1}height="230px" alt="" />
           <ul>
+          <p>Tech stack</p>
+            <button className="Tech">HTML5</button>
+            <button className="Tech">CSS3</button>
+            <button className="Tech">JavaScript</button>
+            <button className="Tech">ReactJS</button>
             <li>Created a dynamic travel website using MERN (MongoDB, Express,
             React, Node) stack.</li>
             <li>Incorporated user registration and
@@ -46,14 +58,17 @@ const Projects = () => {
             on enhancing user experience.{" "}</li>
                
           </ul>
-
-          <button>live link</button>
+          <a href="https://65a8032106777f0007e0fc77--clever-starlight-d25543.netlify.app/"><button>Preview</button></a>
           <a href="https://github.com/shubham99298/Travel"><button>github</button></a>
         </div>
         <div className="project">
           <div className="tag1">To-do</div>
           <img src={project3} height="230px" alt="" />
           <ul>
+          <p>Tech stack</p>
+            <button className="Tech">HTML5</button>
+            <button className="Tech">ReactJS</button>
+            <button className="Tech">CSS3</button>
             <li>Created a sleek Todo application using React.js.</li>
             <li>employing its
             component-based structure for efficient task management.</li>
@@ -64,7 +79,7 @@ const Projects = () => {
            
           </ul>
 
-          <button>live link</button>
+          <a href="https://ornate-tarsier-087b79.netlify.app/"><button>Preview </button></a>   
           <a href="https://github.com/shubham99298/TodoUsingReactjs"><button className="Btn">github</button></a>
           
         </div>
@@ -72,6 +87,11 @@ const Projects = () => {
           <div className="tag1">BlogApp</div>
           <img src={project4} height="235px" alt="" />
           <ul>
+          <p>Tech stack</p>
+            <button className="Tech">NodeJs</button>
+            <button className="Tech">ExpressJS</button>
+            <button className="Tech">ReactJS</button>
+            <button className="Tech">MongoDB</button>
             <li>  Successfully developed a full-stack blog web application using the
             MERN (MongoDB, Express.js, React, Node.js) stack. </li>
             <li> Responsible for
@@ -84,7 +104,7 @@ const Projects = () => {
             
           </ul>
 
-          <button>live link</button>
+          <button>Preview</button>
           <a href='https://github.com/shubham99298/Blogapp'><button>github</button></a>
           
         </div>

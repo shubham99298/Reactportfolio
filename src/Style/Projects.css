@@ -15,18 +15,37 @@
  
 .project,.project1{
     border: 2px solid gray;
-    padding: 20px;
-    border-radius: 45px;
+    background-color: rgb(247, 247, 247);
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+   
    
 }
 .project img{
-    width: 300px;
+    width: 350px;
     
    margin-right:10px;
    /* border: 1px solid gray ; */
    box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
 
 }
+.project1 img{
+    width: 370px;
+}
+.project p,.project1 p{
+    margin-left: 10px;
+    font-size: 1.2rem;
+    
+}
+.Tech{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.853);
+    border-radius: 8px;
+    
+}
+
+
 button{
     color: white;
     background-color: rgb(26, 8, 43);

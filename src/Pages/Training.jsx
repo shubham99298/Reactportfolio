@@ -25,9 +25,6 @@ const Training = () => {
                  </div>
              </div>
 
-
-
-
                 
              <div className="vertical">
                 <img className="img-top"src={Dev} alt=""/>
@@ -36,6 +33,7 @@ const Training = () => {
                    (21 JUL 2023 -5 SEPT 2023)
                 </div>
                 <div className="verticaldesc">
+                   
                  I Also completed a 45-day training program at Regex Software Pvt. Ltd., where I delved into the world of MERN technology. During this training, I gained proficiency in MongoDB, Express, React, and Node.js, and I put my skills to use by developing various projects, including clones and my personal portfolio.
                 </div>
             </div>

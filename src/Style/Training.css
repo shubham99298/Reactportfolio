@@ -41,6 +41,7 @@ left: -15px;
 }
 .verticaltitle{
 position: relative;
+font-style: italic;
 top: 55px;
 width: 150px;
 font-size: 15px;
@@ -52,10 +53,15 @@ position: relative;
 top: 66px;
 color: rgb(11, 1, 1);
 width: 150px;
-font-size: 9px;
+font-size: 10px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.grey
+{
+  font-style:italic;
 
+  color: #444452;
+}
 
 @media screen and (max-width: 1400px) {
   body{
@@ -83,6 +89,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
   .secondsection{
     height: 145vh;
+   
 
 
   }

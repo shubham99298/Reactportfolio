@@ -11,9 +11,9 @@ const Home = () => {
     <div>
         <section className="firstsection" id="home">
             <div className="leftsection">
-                 <div> Hey! ,I am</div><span class="purple">Shubham Kumar Sharma</span> 
+                 <div> Hey ! ,I am</div><span class="purple">Shubham Kumar Sharma</span> 
                 <div>and I am a </div>
-                <span className='grey'>Frontend Developer</span>
+                <span className='grey'>Full stack developer</span>
 
             
 
