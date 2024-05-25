@@ -1,6 +1,8 @@
 import React from 'react'
 import '../Style/About.css'
 import Projects from './Projects'
+import Skills from '../assets/Skills.mp4'
+
 
 const About = () => {
   return (
@@ -9,7 +11,9 @@ const About = () => {
     
        <section className="middlesection" id="about">
        <div>
-           <img className="img" src="https://cdn.thecodehelp.in/ggudduf7qmr7yvjwtcs1_cd7567153f.svg" alt=""/>
+           <video className='img' width="350" height="300" controls >
+            <source src={Skills} type="video/mp4"/>
+          </video>
        </div>
 
        <div className="mid">
@@ -27,11 +31,12 @@ const About = () => {
                    <li className="about__skill">HTML</li>
                    <li className="about__skill">CSS</li>
                    <li className="about__skill">javascript</li>
-                   <li className="about__skill">react</li>
+                   <li className="about__skill">reactJs</li>
                    <li className="about__skill">c++</li>
                    <li className="about__skill">git</li>
                    <li className="about__skill">Bootstrap</li>
                    <li className="about__skill">Mongo</li>
+                   <li className="about__skill">NodeJs</li>
                    <li className="about__skill">Express</li>
                    <li className="about__skill">github</li>
                   

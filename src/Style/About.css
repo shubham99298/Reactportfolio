@@ -4,8 +4,11 @@
 
 }
 .middlesection .img{
+    
     width: 500px;
     margin-left: 50px;
+    border-radius: 20px;
+    /* border: none; */
 }
 .middlesection h2{
     margin-bottom: 20px;
