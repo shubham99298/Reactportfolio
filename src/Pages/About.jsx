@@ -10,10 +10,14 @@ const About = () => {
     <div>
     
        <section className="middlesection" id="about">
-       <div>
+       {/* <div>
            <video className='img' width="350" height="300" controls >
             <source src={Skills} type="video/mp4"/>
           </video>
+       </div> */}
+       <div>
+       <img className='img' width="350" height="400" src='https://miro.medium.com/v2/resize:fit:1272/1*ZSVmWGcc1weENb0ShawWxw.gif'></img>
+
        </div>
 
        <div className="mid">
@@ -25,7 +29,7 @@ const About = () => {
          
            <div className="skills">
                <h3 className="heading-quaternary about__heading-quaternary">
-                   {'<Skills/>'}
+                   Skills
                  </h3>
                  <ul className="about__skills">
                    <li className="about__skill">HTML</li>
