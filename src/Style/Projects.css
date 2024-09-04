@@ -7,18 +7,20 @@
    
      
 }
-
+#pro{
+    font-size: 30px;
+}
 .project1{
     margin-left: 50%;
     margin-bottom: 50px;
 }
  
 .project,.project1{
-    border: 2px solid gray;
     background-color: rgb(247, 247, 247);
     padding: 30px;
     border-radius: 20px;
     margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
    
    
 }

@@ -9,19 +9,24 @@ const Training = () => {
       <hr/>
        <section className="secondsection" id="IT" >
             <span className="grey">What I have done </span>
-            <h1>Internship And Training</h1>
+            <h1>Experience</h1>
 
            <div className="box">
              <div className="vertical">
                  <img className="img-top"src={Dev} alt=""/>
                  <div className="verticaltitle">
-                    Web developer Internship 
-                     (1 Apr 2023- 1 May 2023)
+                     Associate Salesforce Developer
+                     (Feb 2024-Ongoing)
 
                  </div>
                  <div className="verticaldesc">
-                     I have Completed One month intership tasks provided 
-                     by Oasis Infobye...
+                     <ul>
+                      <li> Developed and optimized Salesforce Flows and Apex Triggers for automated business processes. </li>
+                      <li> Designed and implemented Lightning Web Components (LWC) for dynamic user interfaces.</li>
+                      <li>Configured Salesforce Service Cloud features, including Email-to-Case, chatbots, and Knowledge Articles.</li>
+                      <li>Managed case-based scenarios, entitlement contracts, and customer service operation</li>
+                     </ul>
+
                  </div>
              </div>
 
@@ -29,8 +34,8 @@ const Training = () => {
              <div className="vertical">
                 <img className="img-top"src={Dev} alt=""/>
                 <div className="verticaltitle">
-                   MERN stack training
-                   (21 JUL 2023 -5 SEPT 2023)
+                   Full Stack Developer Intern
+                   (JUL 2023 -SEPT 2023)
                 </div>
                 <div className="verticaldesc">
                    
