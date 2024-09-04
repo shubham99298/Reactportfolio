@@ -45,7 +45,7 @@ font-style: italic;
 top: 55px;
 width: 150px;
 font-size: 15px;
-
+font-weight: bolder;
  
 }
 .verticaldesc{
@@ -53,9 +53,10 @@ position: relative;
 top: 66px;
 color: rgb(11, 1, 1);
 width: 150px;
-font-size: 10px;
+font-size: 13px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .grey
 {
   font-style:italic;

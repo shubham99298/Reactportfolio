@@ -35,7 +35,7 @@ const Training = () => {
                 <img className="img-top"src={Dev} alt=""/>
                 <div className="verticaltitle">
                    Full Stack Developer Intern
-                   (JUL 2023 -SEPT 2023)
+                   (Jul 2023 -Sept 2023)
                 </div>
                 <div className="verticaldesc">
                    
