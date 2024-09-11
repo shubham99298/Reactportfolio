@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import '../Style/Home.css';
+import 'animate.css';
 import About from './About';
 import { FaGithub } from 'react-icons/fa';
 
@@ -58,7 +59,11 @@ const Home = () => {
         </div>
 
         <div className="rightsection">
-          <img className="bgpng" src="https://cdn.thecodehelp.in/ggudduf7qmr7yvjwtcs1_cd7567153f.svg" alt=""/>
+        <img
+       className="bgpng animate__animated animate__bounceInRight"
+    src="https://cdn.thecodehelp.in/ggudduf7qmr7yvjwtcs1_cd7567153f.svg"
+          alt=""
+  />
         </div>
       </section>
 
